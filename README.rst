@@ -25,7 +25,7 @@ Install::
 Instantiate::
 
 	import simpleusbrelay
-	relaycontroller=simpleusbrelay(idVendor=16c0, idProduct=05df)
+	relaycontroller=simpleusbrelay(Vendor=0x16c0, Product=0x05df)
 
 Turning relay x on/off::
 	
